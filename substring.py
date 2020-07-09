@@ -1,5 +1,8 @@
-def add(x, y):
-    return x + y
+def add(*addends):
+    acc = 0
+    for addend in addends:
+        acc = acc + addend
+    return acc
 
 assert True
 assert callable(add)
