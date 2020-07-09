@@ -1,5 +1,6 @@
-def add(left, right, start, end):
+def add(*addends):
     pass
 
 assert True
 assert callable(add)
+
