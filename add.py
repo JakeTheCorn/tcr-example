@@ -11,7 +11,6 @@ def subtract_from(*nums):
         return nums[0]
     return 1
 
-assert True
 assert add(1, 2) == 3
 assert add(1, 2, 3) == 6
 assert add(1) == 1
