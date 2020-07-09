@@ -1,0 +1,10 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "\\.py$",
+                "cmd": "cd ${workspaceRoot} && python ${file} && git commit -am working || git reset --hard HEAD^"
+            }
+        ]
+    }
+}
