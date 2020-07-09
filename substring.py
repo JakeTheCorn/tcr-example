@@ -1,5 +1,5 @@
-def substring(left, right, start, end):
+def add(left, right, start, end):
     pass
 
 assert True
-assert callable(substring)
+assert callable(add)
