@@ -2,8 +2,8 @@
     "emeraldwalk.runonsave": {
         "commands": [
             {
-                "match": "substring.py",
-                "cmd": "cd ${workspaceRoot} && python ${file} && git commit -am working || git reset --hard HEAD"
+                "match": "add.py",
+                "cmd": "cd ${workspaceRoot} && python ${file} && git commit -am working || git reset --hard"
             }
         ]
     }
